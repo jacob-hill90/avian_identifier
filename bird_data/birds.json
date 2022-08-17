@@ -1,0 +1,202 @@
+[
+    {
+      "model": "avian_app.bird",
+      "pk": 1,
+      "fields": {
+        "species": "Abert's Towhee",
+        "size": 2,
+        "color": 3,
+        "region": 2
+      }
+    },
+    {
+      "model": "avian_app.bird",
+      "pk": 2,
+      "fields": {
+        "species": "Acorn Woodpecker",
+        "size": 2,
+        "color": [1,5,6],
+        "region": [1,2]
+      }
+    },
+    {
+      "model": "avian_app.bird",
+      "pk": 3,
+      "fields": {
+        "species": "Allen's Hummingbird",
+        "size": 1,
+        "color": [1,2,3,4,5,6,7],
+        "region": [1,2]
+      }
+    },
+    {
+      "model": "avian_app.bird",
+      "pk": 4,
+      "fields": {
+        "species": "American Avocet",
+        "size": 3,
+        "color": [5,3],
+        "region": [1,2,3]
+      }
+    },
+    {
+      "model": "avian_app.bird",
+      "pk": 5,
+      "fields": {
+        "species": "American Coot",
+        "size": 3,
+        "color": 1,
+        "region": [1,2,3,4,5]
+      }
+    },
+    {
+      "model": "avian_app.bird",
+      "pk": 6,
+      "fields": {
+        "species": "American Dipper",
+        "size": 2,
+        "color": 4,
+        "region": [1,2]
+      }
+    },
+    {
+      "model": "avian_app.bird",
+      "pk": 7,
+      "fields": {
+        "species": "American Goldfinch",
+        "size": 1,
+        "color": [7,1],
+        "region": [1,2,3,4,5]
+      }
+    },
+    {
+      "model": "avian_app.bird",
+      "pk": 8,
+      "fields": {
+        "species": "American Kestrel",
+        "size": 3,
+        "color": [3,5,2],
+        "region": [1,2,3,4,5]
+      }
+    },
+    {
+      "model": "avian_app.bird",
+      "pk": 9,
+      "fields": {
+        "species": "American Oystercatcher",
+        "size": 3,
+        "color": [1,5],
+        "region": [4,5]
+      }
+    },
+    {
+      "model": "avian_app.bird",
+      "pk": 10,
+      "fields": {
+        "species": "American Robin",
+        "size": 2,
+        "color": [4,8],
+        "region": [1,2,3,4,5]
+      }
+    },
+    {
+      "model": "avian_app.bird",
+      "pk": 11,
+      "fields": {
+        "species": "American White Pelican",
+        "size": 4,
+        "color": 5,
+        "region": [1,2]
+      }
+    },
+    {
+      "model": "avian_app.bird",
+      "pk": 12,
+      "fields": {
+        "species": "American Wigeon",
+        "size": 3,
+        "color": [3,4],
+        "region": [1,2,3,4,5]
+      }
+    },
+    {
+      "model": "avian_app.bird",
+      "pk": 13,
+      "fields": {
+        "species": "Anna's Hummingbird",
+        "size": 1,
+        "color": [6,4,9],
+        "region": 1
+      }
+    },
+    {
+      "model": "avian_app.bird",
+      "pk": 14,
+      "fields": {
+        "species": "Aplomado Falcon",
+        "size": 3,
+        "color": [3,5,1],
+        "region": 2
+      }
+    },
+    {
+      "model": "avian_app.bird",
+      "pk": 15,
+      "fields": {
+        "species": "Arizona Woodpecker",
+        "size": 2,
+        "color": [3,5],
+        "region": 2
+      }
+    },
+    {
+      "model": "avian_app.bird",
+      "pk": 16,
+      "fields": {
+        "species": "Bald Eagle",
+        "size": 4,
+        "color": [3,5],
+        "region": [1,2,3,4,5]
+      }
+    },
+    {
+      "model": "avian_app.bird",
+      "pk": 17,
+      "fields": {
+        "species": "Band-tailed Pigeon",
+        "size": 3,
+        "color": 4,
+        "region": [1,2]
+      }
+    },
+    {
+      "model": "avian_app.bird",
+      "pk": 18,
+      "fields": {
+        "species": "Barn Swallow",
+        "size": 1,
+        "color": [2,3],
+        "region": [1,2,3,4,5]
+      }
+    },
+    {
+      "model": "avian_app.bird",
+      "pk": 19,
+      "fields": {
+        "species": "Barred Owl",
+        "size": 3,
+        "color": [5,3],
+        "region": [1,2,3,5]
+      }
+    },
+    {
+      "model": "avian_app.bird",
+      "pk": 20,
+      "fields": {
+        "species": "Barrow's Goldeneye",
+        "size": 3,
+        "color": [1,3,5],
+        "region": [1]
+      }
+    }
+]

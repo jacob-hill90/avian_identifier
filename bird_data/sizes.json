@@ -1,0 +1,30 @@
+[
+    {
+      "model": "avian_app.size",
+      "pk": 1,
+      "fields": {
+        "size": "tiny"
+      }
+    },
+    {
+        "model": "avian_app.size",
+        "pk": 2,
+        "fields": {
+          "size": "small"
+        }
+    },
+    {
+        "model": "avian_app.size",
+        "pk": 3,
+        "fields": {
+          "size": "medium"
+        }
+    },
+    {
+        "model": "avian_app.size",
+        "pk": 4,
+        "fields": {
+          "size": "large"
+        }
+    }
+]

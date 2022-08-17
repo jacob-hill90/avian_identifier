@@ -1,0 +1,37 @@
+[
+    {
+      "model": "avian_app.region",
+      "pk": 1,
+      "fields": {
+        "locale": "West"
+      }
+    },
+    {
+        "model": "avian_app.region",
+        "pk": 2,
+        "fields": {
+          "locale": "Southwest"
+        }
+    },
+    {
+        "model": "avian_app.region",
+        "pk": 3,
+        "fields": {
+          "locale": "Midwest"
+        }
+    },
+    {
+        "model": "avian_app.region",
+        "pk": 4,
+        "fields": {
+          "locale": "Southeast"
+        }
+    },
+    {
+        "model": "avian_app.region",
+        "pk": 5,
+        "fields": {
+          "locale": "Northeast"
+        }
+    }
+]

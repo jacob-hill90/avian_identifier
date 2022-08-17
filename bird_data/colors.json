@@ -1,0 +1,65 @@
+[
+    {
+      "model": "avian_app.color",
+      "pk": 1,
+      "fields": {
+        "color": "Black"
+      }
+    },
+    {
+        "model": "avian_app.color",
+        "pk": 2,
+        "fields": {
+          "color": "Blue"
+        }
+    },
+    {
+        "model": "avian_app.color",
+        "pk": 3,
+        "fields": {
+          "color": "Brown"
+        }
+    },
+    {
+        "model": "avian_app.color",
+        "pk": 4,
+        "fields": {
+          "color": "Gray"
+        }
+    },
+    {
+        "model": "avian_app.color",
+        "pk": 5,
+        "fields": {
+          "color": "White"
+        }
+    },
+    {
+        "model": "avian_app.color",
+        "pk": 6,
+        "fields": {
+          "color": "Red"
+        }
+    },
+    {
+        "model": "avian_app.color",
+        "pk": 7,
+        "fields": {
+          "color": "Yellow"
+        }
+    },
+    {
+        "model" : "avian_app.color",
+        "pk" : 8,
+        "fields" : {
+          "color" : "Orange"
+        }
+    },
+    {
+      "model" : "avian_app.color",
+      "pk" : 9,
+      "fields" : {
+        "color" : "Green"
+      }
+  }
+]
