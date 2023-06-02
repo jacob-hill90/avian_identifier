@@ -17,6 +17,3 @@ class Sighting(models.Model):
     lat = models.IntegerField()
     long = models.IntegerField()
     user = models.ForeignKey(AppUser, on_delete = models.CASCADE, related_name='sighting')
-
-    def __str__(self):
-        self.title

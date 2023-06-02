@@ -4,8 +4,8 @@ import { useState } from "react";
 import HomePage from './pages/HomePage'
 import SignUp from './pages/SignUp'
 import LogIn from './pages/LogIn';
-import API from './pages/API';
-import Contact from './pages/Contact';
+import Weather from './pages/Weather';
+import Random from './pages/Random';
 import Search from './pages/Search';
 import BirdLog from './pages/BirdLog';
 import LogBird from './pages/LogBird';
@@ -50,8 +50,8 @@ function App() {
           <Route path='/' element={<HomePage user={user}/>}/>
           <Route path='/signup' element={<SignUp user={user}/>}/>
           <Route path='/login' element={<LogIn user={user} setUser={setUser}/>}/>
-          <Route path='/API' element={<API />}/>
-          <Route path='/contact' element={<Contact />}/>
+          <Route path='/weather' element={<Weather />}/>
+          <Route path='/random' element={<Random />}/>
           <Route path='/search' element={<Search />}/>
           <Route path='/birdlog' element={<BirdLog user={user}/>}/>
           <Route path='/logbird' element={<LogBird />}/>

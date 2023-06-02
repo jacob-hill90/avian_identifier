@@ -6,7 +6,6 @@ from django.contrib.auth import authenticate, login, logout
 from rest_framework.decorators import api_view
 from .models import AppUser as User
 from .models import Sighting
-import json
 import requests
 
 
@@ -89,3 +88,4 @@ def weather_api(request, longitude, latitude):
     print(responseJSON)
 
     return JsonResponse(responseJSON)
+

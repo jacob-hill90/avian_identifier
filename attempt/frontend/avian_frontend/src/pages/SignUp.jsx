@@ -34,10 +34,10 @@ function SignUp() {
       <div className="signup-container">
         <h1>Sign Up</h1>
         <form id='signup-form' onSubmit={submitSignupForm}>
-          <label for="email">email</label>
+          <label id='sign' for="email">email</label>
           <input type='text' name="email" id="email"></input>
           <hr></hr>
-          <label for="password">password</label>
+          <label id='sign' for="password">password</label>
           <input type='password' name="password" id="password"></input>
           <hr></hr>
           <button type="submit">Sign Up</button>

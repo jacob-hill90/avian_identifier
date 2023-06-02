@@ -20,7 +20,7 @@ function BirdLog({user}) {
         <div className="banner_container">
             <img className="eagle" src="static/banner.jpeg"></img>
         </div>
-        <a href='/#/logbird'>Log Bird</a>
+        {user && <a href='/#/logbird'>Log Bird</a>}
         {user ? 
         <div className="birdTable">
             <div className="title">Title</div>
@@ -32,8 +32,12 @@ function BirdLog({user}) {
         : <div className="required">Please Log In to See Archived Birds<a href="/#/login">Log In Here</a></div>}
         {
             sighting &&
-            sighting.map(x => <div className="title">{x.fields.title}{x.fields.description}</div>)
+            sighting.map(x => <div className="title">{x.fields.title}</div>)
+        }
+        {
 
+            sighting &&
+            sighting.map(x => <div className="description">{x.fields.description}</div>)
         }
     </div>
     )

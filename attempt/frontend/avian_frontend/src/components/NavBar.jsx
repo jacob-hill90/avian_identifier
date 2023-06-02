@@ -17,10 +17,10 @@ function NavBar({user, whoAmI}){
                 <div class="row">
                     <div class="col-sm"></div>
                     <div class="col-sm">
-                        <a className='links' href='/#/API'>API</a>
+                        <a className='links' href='/#/weather'>Weather</a>
                     </div>
                     <div class="col-sm">
-                        <a className='links' href='/#/contact'>Contact</a>
+                        <a className='links' href='/#/random'>Random Bird</a>
                     </div>
                     <div class="col-sm logo">
                         <a href="/"><img src="static/bino_icon_black.png" width='50%'></img></a>
